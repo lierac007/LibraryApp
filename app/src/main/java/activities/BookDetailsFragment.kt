@@ -24,7 +24,7 @@ class BookDetailsFragment : DialogFragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
-            bookId = it.getString("bookId")  // ✅ Retrieve bookId
+            bookId = it.getString("bookId")  
         }
     }
 
